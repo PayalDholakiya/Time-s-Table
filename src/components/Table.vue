@@ -2,7 +2,7 @@
   <div>
     <h1>--- Tables ---</h1>
   </div>
-  <input v-model="search" type="text" id="Input" placeholder="Search table" />
+  <input v-model="search" type="number" id="Input" placeholder="Search table" />
   <div>
     <ul v-if="search">
       <li v-for="index in 10">
